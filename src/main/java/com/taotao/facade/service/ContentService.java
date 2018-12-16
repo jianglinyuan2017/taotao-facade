@@ -8,5 +8,7 @@ import com.taotao.pojo.TbContent;
 public interface ContentService {
 	
 	public List<TbContent> getContentList(long contentCategoryId);
+	
+	public String getPageContentList();
 
 }
